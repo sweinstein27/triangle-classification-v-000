@@ -1,9 +1,9 @@
 class Triangle
-  attr_accessor :a, :b, :c
-  def initialize(a, b, c)
-    @a = a
-    @b = b
-    @c = c
+  attr_accessor :x, :y, :z
+  def initialize(x, y, z)
+    @x = x 
+    @y = y 
+    @z = z 
   end
 
   def kind
